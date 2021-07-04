@@ -1,0 +1,47 @@
+tr td{
+  outline: 1px solid;
+  min-width: 45px;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+tr td div {
+  display: inline;
+}
+input {
+  max-width: 100px;
+}
+h2 {
+  text-shadow: 1px 1px #000000;
+}
+.class1 {
+ background-color: red;
+}
+.class2 {
+  background-color: green;
+}
+.inputConteiner {
+  float: right;
+  background-color: grey;
+  padding: 1%;
+  height: 30%;
+  border-radius: 0 0 34px 0px;
+}
+.tableConteiner {
+  float: left;
+  background-color: grey;
+  padding: 1%;
+  border-radius: 0 0 0 34px;
+  width: 55%;
+}
+.mainTable {
+  background-color: #222;
+  height: 100vh;
+  overflow: scroll;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
